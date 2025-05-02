@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(242, 230, 225);
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(224, 234, 244);
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 2rem;
+    min-height: 45vh;
+    width: 40vh;
+    border-radius: 2rem;
+}
+
+form {
+    margin: 2rem 0 2rem 0;
+    
+  }
+  

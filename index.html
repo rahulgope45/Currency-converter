@@ -5,43 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>currency Converter</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Currency Converter</h1>
-    <form>
-        <div class="amount">
-            <p>Enter Your Amount</p>
-            <input type="number">
-        </div>
-        <div class="dropdown">
-            <p>From</p>
-            <img src="https://flagsapi.com/IN/flat/64.png">
-            <select>
-                <option>Inr</option>
-                <option>Usd</option>
-            </select>
-        </div>
-        <i class="fas fa-exchange"></i>
-
-        <div class="amount">
-            <p>To</p>
-        </div>
-        <div class="dropdown">
-            <p>Select Currency</p>
-            <img src="https://flagsapi.com/US/flat/64.png">
-            <select>
-                <option>Inr</option>
-                <option>Usd</option>
-            </select>
-        </div>
-
-        <div>
+    
+    <div class="container">
+        <h1>Currecy Converter</h1>
+        <form>
+            <div class="amount">
+                <p>Enter Your amount</p>
+                <input type="number">
+            </div>
+           <div class="dropdown">
+            <div class="Fromwala">
+                <p>From</p>
+                <img src="https://flagsapi.com/IN/flat/64.png">
+                <select class="select-container">
+                    <option >Inr</option>
+                    <option>Usd</option>
+                </select>
+            </div>
+            <i class="fas fa-exchange"></i>
+            <div class="Towala">
+                <p>To</p>
+                <img src="https://flagsapi.com/US/flat/64.png">
+                <select class="select-container">
+                    <option >Inr</option>
+                    <option>Usd</option>
+                </select>
+            </div>
+           </div>
+           <div class="msg">
+            <p id="msg">1 rupee = 84 Dollsrs</p>
+           </div>
+           <div class="button">
             <button>Convert</button>
-        </div>
-
-
-    </form>
+           </div>
+        </form>
+    </div>
 
 
 
