@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
 </head>
 <body>
-
+    <h1>Currency Converter</h1>
     <form>
-        <p>Currency Converter</p>
+        <div class="amount">
+            <p>Enter Your Amount</p>
+            <input type="number">
+        </div>
+        <div class="dropdown">
+            <p>From</p>
+            <img src="https://flagsapi.com/IN/flat/64.png">
+            <select>
+                <option>Inr</option>
+                <option>Usd</option>
+            </select>
+        </div>
+        <i class="fas fa-exchange"></i>
+
+        <div class="amount">
+            <p>To</p>
+        </div>
+        <div class="dropdown">
+            <p>Select Currency</p>
+            <img src="https://flagsapi.com/US/flat/64.png">
+            <select>
+                <option>Inr</option>
+                <option>Usd</option>
+            </select>
+        </div>
+
+        <div>
+            <button>Convert</button>
+        </div>
+
+
     </form>
+
+
+
     
 </body>
 </html>
